@@ -30,3 +30,6 @@ this script will remove a file named betty from /tmp/my_first_directory.
 9-firstdirdeletion: (rm -r)  
 this script will remove a directory named my_first_directory.
 
+10-back: (cd --)  
+this script will change the working directory to previous one.
+
