@@ -5,5 +5,5 @@
 	this script displays the contents list of the current directory using 'ls'
 
 2-bring_me_home:
-	this script changes the working directory to the user's home directory ($HOME) using 'cd $HOME'
+	this script changes the working directory to the user's home directory (/root) using 'cd'
 
