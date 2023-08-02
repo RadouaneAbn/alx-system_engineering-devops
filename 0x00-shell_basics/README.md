@@ -8,5 +8,8 @@
 	this script changes the working directory to the user's home directory (/root) using 'cd'
 
 3-listfiles:
-	this script displays the content list of the current directory in a long format using 'ls -l'
+	this script displays the contents list of the current directory in a long format using 'ls -l'
+
+4-listmorefiles:
+	this script displays the contents list of the current directory including hidden files in a long format using 'ls -la'
 
