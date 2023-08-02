@@ -39,3 +39,6 @@ this script lists the files including hidden ones in the working directory '.', 
 12-file_type: (file)  
 this script will print the type of the file named iamafile in the /tmp directory.
 
+13-symbolic_link: (ls -s)  
+this script will create a symbolic link to /bin/ls, named __ls__ in the working directory.
+
