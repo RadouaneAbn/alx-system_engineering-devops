@@ -33,3 +33,6 @@ this script will remove a directory named my_first_directory.
 10-back: (cd --)  
 this script will change the working directory to previous one.
 
+11-lists: (ls -la . .. /boot)  
+this script lists the files including hidden ones in the working directory '.', parent of the working directory '..' and the /boot directory in long format.
+
