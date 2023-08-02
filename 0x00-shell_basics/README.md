@@ -57,3 +57,6 @@ this script will create a directory named welcome and inside of welcome/ will cr
 103-commas: (ls -mapv)  
 this script lists all the files and directories of the current directory, seperated by commas in apla order and digits at the beginning.
 
+school.mgc:
+this magic file will be usedwith file command to detect School data files.
+
