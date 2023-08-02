@@ -51,3 +51,6 @@ this script will move all files beginning with an uppercase letter to the direct
 101-clean_emacs: (rm)  
 this script will delete all files in the current working directory the end with character ~(emacs backup files).
 
+102-tree: (mkdir -p)  
+this script will create a directory named welcome and inside of welcome/ will create another directory named /to and inside of welcome/to/ will create a directory named school.
+
