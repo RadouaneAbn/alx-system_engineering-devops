@@ -7,3 +7,6 @@
 2-bring_me_home:
 	this script changes the working directory to the user's home directory (/root) using 'cd'
 
+3-listfiles:
+	this script displays the content list of the current directory in a long format using 'ls -l'
+
