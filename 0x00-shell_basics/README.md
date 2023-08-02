@@ -13,3 +13,6 @@
 4-listmorefiles:
 	this script displays the contents list of the current directory including hidden files in a long format using 'ls -la'
 
+5-listfilesdigitonly:
+	this script displays the contents list of the current directory with user and group IDs  including hidden files in long format using 'ls -lan'
+
