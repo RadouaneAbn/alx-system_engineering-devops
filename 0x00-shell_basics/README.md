@@ -48,3 +48,6 @@ this script will copy all HTML files from working directory to the parent of the
 100-lets_move: (mv)  
 this script will move all files beginning with an uppercase letter to the directory /tmp/u/.
 
+101-clean_emacs: (rm)  
+this script will delete all files in the current working directory the end with character ~(emacs backup files).
+
