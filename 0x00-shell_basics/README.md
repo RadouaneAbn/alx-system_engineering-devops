@@ -36,3 +36,6 @@ this script will change the working directory to previous one.
 11-lists: (ls -la . .. /boot)  
 this script lists the files including hidden ones in the working directory '.', parent of the working directory '..' and the /boot directory in long format.
 
+12-file_type: (file)  
+this script will print the type of the file named iamafile in the /tmp directory.
+
