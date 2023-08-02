@@ -54,6 +54,6 @@ this script will delete all files in the current working directory the end with 
 102-tree: (mkdir -p)  
 this script will create a directory named welcome and inside of welcome/ will create another directory named /to and inside of welcome/to/ will create a directory named school.
 
-103-commas: (ls -map --sort=none)  
+103-commas: (ls -mapv)  
 this script lists all the files and directories of the current directory, seperated by commas in apla order and digits at the beginning.
 
