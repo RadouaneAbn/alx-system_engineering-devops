@@ -15,3 +15,6 @@ this script will change the owner of a file named hello to a user named betty.
 4-empty: (touch)  
 this script will create a new file named hello.
 
+5-execute: (chmod)  
+this script will add execute permission to the owner of the file hello.
+
