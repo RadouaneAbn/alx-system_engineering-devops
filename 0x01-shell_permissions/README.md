@@ -24,3 +24,21 @@ this script will add execute permission to the owner and the group owner, and re
 7-everybody: (chmod)
 this script will add execute permission to the owner, the group owner and the other users.
 
+8-James_Bond: (chmod)  
+this script will set the permission 007  to the file hello.
+
+9-John_Doe: (chmod)  
+this script will set the mode of the file hello to 753.
+
+10-mirror_permissions: (chmod)  
+this script will set the mode of file hello the same as olleh.
+
+11-directories_permissions: (chmod)  
+this script adds execute permission to all subdirectories of the current directory.
+
+12-directory_permissions: (chmod)  
+this script will create a directory named my_dir with permissions 751 in the working directory.
+
+13-change_group: (chmod)  
+this script will change the group owner to school for the file hello.
+
