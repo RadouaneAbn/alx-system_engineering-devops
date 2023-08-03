@@ -42,3 +42,15 @@ this script will create a directory named my_dir with permissions 751 in the wor
 13-change_group: (chmod)  
 this script will change the group owner to school for the file hello.
 
+100-change_owner_and_group: (chown)  
+this script will change the owner to vincent nad group owner to staff for all files and directories.
+
+101-symbolic_link_permissions: (chown)  
+this script will change the owner and the group owner of \_hello to vincent and staff.
+
+102-if_only: (chown)  
+this script will change the owner of the file hello to betty if its owned by the user guillaume.
+
+103-Star_Wars: (telnet)  
+this script will play the StarWars IV episode.
+
