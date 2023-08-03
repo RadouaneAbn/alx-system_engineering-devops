@@ -6,3 +6,6 @@ this script will switch current user to user betty.
 1-who_am_i: (whoami)  
 this script will print the username of the current user.
 
+2-groups: (groups)  
+this script will print all groups that the current user is part of.
+
