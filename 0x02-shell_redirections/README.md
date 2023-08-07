@@ -21,3 +21,8 @@ Shell, I/O Redirections and filters:
 6-third_line: (head|tail)  
 	this script will display the third line of the file iacta.
 
+7-file: (echo)  
+	this script will create a file named '\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)' and will contain "Best School"
+
+8-cwd_state: (ls>)  
+	this script will write the result of the command 'ls -la' into the file "ls_cwd_content" if it exist, if doesn't it will create it and then write the result in it.
