@@ -18,4 +18,6 @@ Shell, I/O Redirections and filters:
 5-firstlines: (head)  
 	this script will display the first 10 lines of the file **/etc/passwd**.
 
+6-third_line: (head|tail)  
+	this script will display the third line of the file iacta.
 
