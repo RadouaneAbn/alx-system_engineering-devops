@@ -77,3 +77,7 @@ Shell, I/O Redirections and filters:
 
 102-acrostic: (cut)  
 	this script will decode acrostics that use the first letter of each line.
+
+103-the_biggest_fan: (tail|sort|cut|uniq|head|tr)  
+	this script will parse web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
+
