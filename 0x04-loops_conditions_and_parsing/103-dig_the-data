@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script displays teh visitor IP along with the HTTP status code
+
+awk -F' ' '{ print $1 " " $9 }'  apache-access.log | sort | uniq -c | sort -r
