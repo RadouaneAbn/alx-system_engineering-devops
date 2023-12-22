@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# This script displays the PID and the name of precess of precesses whose name contain the word bash
-pgrep -f bash
+# This script displays the PID and the name of precess
+#	of precesses whose name contain the word bash
+pgrep -l bash
