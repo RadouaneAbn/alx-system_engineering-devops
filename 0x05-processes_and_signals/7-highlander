@@ -3,7 +3,6 @@
 #	and displays "I am invincible!!!" when receiving a SIFTERM signal
 sig_term_trap() {
 	echo "I am invincible!!!"
-	exit 0
 }
 
 trap 'sig_term_trap' SIGTERM
