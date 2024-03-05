@@ -1,0 +1,28 @@
+#!/bin/env bash
+# This script configures a HAProxy
+
+# update the package
+sudo apt-get -y update
+# install HAProxy
+sudo apt-get -y install haproxy
+
+# HAProxy configuration
+config="
+frontend red-abn.tech
+  bind *:80
+  mode http
+  default_backend web_servers
+
+backend web_servers
+  balance roundrobin
+  server 511368-web-01 52.3.252.27:80 check
+  server 511368-web-02 54.160.117.45:80 check
+"
+
+# append the configurations to haproxy.cfg
+echo "$config" | sudo tee -a /etc/haproxy/haproxy.cfg > /dev/null
+# activate the HAProxy
+echo "ENABLED=1" | sudo tee -a /etc/default/haproxy > /dev/null
+
+# restart the HAProxy
+sudo service haproxy restart
