@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This displays information about subdomains.
 
 sub_domain_list=("www" "lb-01" "web-01" "web-02")
 domain_name=$1
