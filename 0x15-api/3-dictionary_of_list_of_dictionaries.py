@@ -14,7 +14,7 @@ def all_users(url):
 
 
 def all_tasks(url):
-    """ This fucntion return a list of all tasks
+    """ This function return a list of all tasks
     """
     return requests.get(url.format("/todos")).json()
 
@@ -22,25 +22,22 @@ def all_tasks(url):
 def info_per_id(users_list, tasks_list):
     """ This function returns a dictionary that will be written in a json file
     """
-    result_dict = {}
-    result_list = []
+    users = {}
+    result = {}
     for user in users_list:
-        username = user["username"]
-        user_id = user["id"]
-        tmp_list = []
-        for task in tasks_list:
-            if task["userId"] != user_id:
-                continue
-            tmp_list.append({
-                "username": username,
+        tmp_id = str(user["id"])
+        users[tmp_id] = user["username"]
+        result[tmp_id] = []
+
+    for task in tasks_list:
+        tmp_id = str(task["userId"])
+        result[tmp_id].append({
+                "username": users[tmp_id],
                 "task": task["title"],
                 "completed": task["completed"]
-                })
-            tasks_list.remove(task)
+            })
 
-        result_dict[str(user_id)] = list(tmp_list)
-
-    return result_dict
+    return result
 
 
 if __name__ == "__main__":
