@@ -2,9 +2,8 @@
 """
 This script return information about a users TODO list progress
 """
-import json
-from sys import argv
 import requests
+from sys import argv
 
 
 def info_per_id(user_id):
